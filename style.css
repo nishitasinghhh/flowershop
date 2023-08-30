@@ -75,6 +75,7 @@ header .navbar a{
 header .navbar a:hover{
     color: var(--pink);
 }
+
 header .icons a{
     font-size: 2rem;
     color: #333;
@@ -461,8 +462,22 @@ header .fa-bars{
 .footer .box-container .box img{
     margin-top: 1rem;
 }
-
-
+.new{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.count{
+    color: #fff;
+    background: #e84393;
+}
+.new-btn{
+    background-color: #e84393;
+}
+.new-btn:hover{
+    color: #333;
+}
 
 
 
